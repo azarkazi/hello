@@ -15,7 +15,12 @@ public class HelloGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        showMe();
+    }
+    
+    public static void showMe(){
         System.out.println("Hello Git.");
+        System.out.println("Good Day.");
     }
     
 }
