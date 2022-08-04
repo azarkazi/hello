@@ -15,17 +15,17 @@ public class HelloGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        showMe();
-        showBye();
+        int add = add(2,6);
+        System.out.println("Reuslt: "+add);
+        int sub = sub(9,5);
+        System.out.println("Reuslt: "+sub);
     }
     
-    public static void showMe(){
-        System.out.println("Hello Git.");
-        System.out.println("Good Day.");
+    public static int add(int num1,int num2){
+        return num1+num2;
     }
     
-    public static void showBye(){
-        System.out.println("Bye.");
+    public static int sub(int num1,int num2){
+        return num1-num2;
     }
-    
 }
