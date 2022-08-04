@@ -16,9 +16,9 @@ public class HelloGit {
     public static void main(String[] args) {
         // TODO code application logic here
         int add = add(2,6);
-        System.out.println("Reuslt: "+add);
+        System.out.println("Reuslt is : "+add);
         int sub = sub(9,5);
-        System.out.println("Reuslt: "+sub);
+        System.out.println("Reuslt is : "+sub);
     }
     
     public static int add(int num1,int num2){
